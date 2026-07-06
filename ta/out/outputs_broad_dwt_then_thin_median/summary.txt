@@ -1,0 +1,18 @@
+Takaku-inspired directional DWT destriping for HISUI MF ROI
+input_dir: D:\research\code\outputs_detected_slopes_orthogonal_thin_eachiter_then_broad_median
+output_dir: D:\research\code\takaku_wavelet_mf_destriping\outputs_broad_dwt_then_thin_median
+thin_slope: 0.979272350726
+broad_slope: 1.257172298919
+baseline_threshold: 0.0943417034312681
+recommended: hybrid_existing_thin_then_takaku_broad
+
+Metrics:
+  raw_mf: robust_std_non_plume=0.0308927, broad_profile_robust_std=0.0124082, thin_profile_robust_std=0.00995146, plume_p95=0.247812
+  existing_median_thin_then_broad: robust_std_non_plume=0.0277585, broad_profile_robust_std=0.00487169, thin_profile_robust_std=0.00269931, plume_p95=0.185692
+  existing_thin_only: robust_std_non_plume=0.0284528, broad_profile_robust_std=0.00703037, thin_profile_robust_std=0.00278699, plume_p95=0.202962
+  takaku_broad_only: robust_std_non_plume=0.0277651, broad_profile_robust_std=0.00328477, thin_profile_robust_std=0.00627029, plume_p95=0.238058
+  dwt_broad_then_median_thin_primary: robust_std_non_plume=0.026643, broad_profile_robust_std=0.00221063, thin_profile_robust_std=0.00187192, plume_p95=0.185254
+  dwt_broad_then_median_thin_primary_orthogonal: robust_std_non_plume=0.0263259, broad_profile_robust_std=0.00263165, thin_profile_robust_std=0.00211878, plume_p95=0.188231
+  hybrid_existing_thin_then_takaku_broad: robust_std_non_plume=0.0261239, broad_profile_robust_std=0.00306158, thin_profile_robust_std=0.00301521, plume_p95=0.192506
+  takaku_thin_only: robust_std_non_plume=0.0270509, broad_profile_robust_std=0.0121516, thin_profile_robust_std=0.0084537, plume_p95=0.252501
+  takaku_thin_then_broad: robust_std_non_plume=0.0257588, broad_profile_robust_std=0.0107593, thin_profile_robust_std=0.00765059, plume_p95=0.247994

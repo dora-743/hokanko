@@ -1,0 +1,13 @@
+QA/metadata-guided HISUI MF destriping
+input_dir: D:\research\code\outputs_detected_slopes_orthogonal_thin_eachiter_then_broad_median
+output_dir: D:\research\code\qa_guided_mf_destriping\outputs
+at_meta_slope: 0.977196363025
+ct_mirror_slope: 1.266720330853
+detected_thin_slope: 0.979272350726
+detected_broad_slope: 1.257172298919
+recommended: existing thin-line median cleanup + CT metadata-slope DWT levels 2-5
+
+Recommended metrics:
+  robust_std_non_plume=0.0243194, detected_broad_profile=0.00182406, ct_meta_profile=0.00190789, detected_thin_profile=0.00261715, plume_p95=0.191629
+Previous Takaku-hybrid metrics:
+  robust_std_non_plume=0.0261239, detected_broad_profile=0.00306158, ct_meta_profile=0.00284161, detected_thin_profile=0.00301521, plume_p95=0.192506
